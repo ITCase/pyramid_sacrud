@@ -9,11 +9,11 @@ resources and has hard depency from :mod:`SQLAlchemy`, :mod:`sacrud`,
 :mod:`pyramid_sacrud` >= 0.3.0 represent just interface for any backends, like:
 
 * `ps_alchemy <https://github.com/sacrud/ps_alchemy>`_ - handle SQLAlchemy
-  resourse
-* ps_peewee - handle PeeweeORM resourse
-* ps_ponyorm - handle PonyORM resourse
-* ps_djangoorm - handle Django ORM resourse
-* ps_mongodb - handle MongoDB resourse
+  resource
+* ps_peewee - handle PeeweeORM resource
+* ps_ponyorm - handle PonyORM resource
+* ps_djangoorm - handle Django ORM resource
+* ps_mongodb - handle MongoDB resource
 * and unniversal interface writing your own backends for example:
 
   * you can write filesystem backend which shown files in
